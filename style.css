@@ -1,35 +1,121 @@
 header img {
     width: 150px;
-    
+    display:inline-block;
+margin: 0 auto;   
 
 }
 header{
     background-color: black;
-    width: auto;
-    padding-bottom: 100px;
-    margin: 0 50;
+    width:100%;
+    text-align:center;
+    
+    
+    
+}
+main{
+   
+    text-align:justify;
+    color: rgb(3, 3, 3);
+    background-color: white;
+    margin: 10 0;
+
 }
 h1{
     color: white;
+    margin: 0 200;
+    text-align: left;
+    
+    
 }
 h2{
+    color: black;
+    text-align: left;
     margin: 0 200;
 }
-div.about{
-    margin: 0 200;
-    text-align:justify;
-}
+
 nav{
     display: flex;
     justify-content: right;
-   background-color: rgb(47, 35, 219);
+   background-color: rgb(197, 182, 47);
    margin: 0 200;
    padding: 20;
 
+}
+div{
+    margin: 0 200;
 }
 a {
 text-decoration: none;
 margin: 0 20;
 color: white;
 
+}
+
+button {
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  
+}
+div.demo{
+    background-color: rgb(197, 182, 47);
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    
+    
+
+}
+.demo {
+    border:1px solid #47a861;
+    border-collapse:collapse;
+    padding:5px;
+    margin: 0 25;
+}
+  
+.demo th {
+    border:1px solid #1c83b3;
+    padding:5 100;
+    background:#1c83b3;
+}
+.demo td {
+    border:1px solid #1c83b3;
+    padding:5px;
+    margin-bottom: 15px;
+}
+footer{
+    background-color: rgb(197, 182, 47);
+    padding: 15 0;
+}
+p{
+    text-align: center;
+}
+.contacts{
+    padding: 20 0;
 }
