@@ -102,9 +102,9 @@ form{
 .form-style-6 textarea:focus,
 .form-style-6 select:focus
 {
-	box-shadow: 0 0 5px #43D1AF;
+	box-shadow: 0 0 5px #7a560a;
 	padding: 3%;
-	border: 1px solid #43D1AF;
+	border: 1px solid #5c4409;
 }
 
 .form-style-6 input[type="submit"],
