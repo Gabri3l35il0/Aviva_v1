@@ -18,6 +18,8 @@ main{
     color: rgb(3, 3, 3);
     background-color: white;
     margin: 10 0;
+    overflow: auto;
+
 
 }
 h1{
@@ -30,7 +32,6 @@ h1{
 h2{
     color: black;
     text-align: left;
-    margin: 0 200;
 }
 
 nav{
@@ -119,3 +120,18 @@ p{
 .contacts{
     padding: 20 0;
 }
+.photos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.photos img {
+    height: 300px;
+    width: 500px;
+    margin: 5px;
+    }
+    .contacts{
+        display: flex;
+        justify-content: center;
+    }
+    
